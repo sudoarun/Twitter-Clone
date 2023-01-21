@@ -1,0 +1,328 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 0px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* padding: 20px; */
+    /* font-size: 30px; */
+    /* text-align: center; */
+    /* width: 32vw; */
+}
+
+.logoSvg {
+    height: 30px;
+    fill: rgb(29, 155, 240);
+}
+
+.navItem {
+    height: 30px;
+}
+
+.navList {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu {
+    width: 24vw;
+}
+
+.feed {
+    width: 42vw;
+    border-right: .5px solid rgba(235, 229, 229, 0.8);
+    border-left: .5px solid rgba(235, 229, 229, 0.8);
+}
+
+.trending {
+    width: 32vw;
+}
+
+.listDiv {
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+}
+
+.listDiv span {
+    margin: 0 10px 0;
+}
+
+/* nav {
+    width: 310px;
+    border-right: 1px solid rgb(245, 239, 239);
+} */
+
+li {
+    width: 185px;
+}
+
+nav span {
+    font-size: 20px;
+}
+
+li:hover {
+    background-color: rgba(228, 205, 205, 0.623);
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.divNav {
+    margin-left: 60px;
+    margin-top: 15px;
+    height: 85vh;
+}
+
+.btn-li {
+    margin-top: 12px;
+}
+
+.btn-tweet {
+    background-color: rgb(29, 155, 240);
+    border: none;
+    padding: 15px;
+    width: 210px;
+    min-height: 52px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+}
+
+.btn-tweet:hover {
+    background-color: rgb(16, 131, 207);
+}
+
+.userImg {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+
+}
+
+.userDetail {
+    margin-left: 10px;
+
+}
+
+.userSection {
+    margin-left: 60px;
+}
+
+#userId {
+    color: rgb(134, 130, 130);
+    font-size: 12px;
+}
+
+#userName {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* .newsFeed {
+    
+
+} */
+
+.topFeed {
+    height: 20px;
+}
+
+.HomeFeed {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.HomeFeed span {
+    font-weight: bold;
+}
+
+.tweetImg {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* .createFeed {} */
+
+.decorate {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.decorate input {
+    border: 0px;
+    height: 50px;
+    width: 80%;
+
+
+}
+
+.createFeed input:focus {
+    border: none;
+}
+
+.tweetMenu svg {
+    height: 20px;
+    padding: 5px;
+    fill: rgb(29, 155, 240);
+}
+
+.tweetMenu svg:hover {
+    background-color: lightblue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menuSelect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.menuSelect_P {
+    border-bottom: .5px solid rgba(235, 229, 229, 0.8);
+}
+
+.tweetSubmit {
+    background-color: rgb(29, 155, 240);
+    border: none;
+    padding: 10px;
+    width: 65px;
+    min-height: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+}
+
+.tweetSubmit:hover {
+    background-color: rgb(90, 197, 233);
+    cursor: pointer;
+}
+
+#searchLogo svg {
+    height: 20px;
+    font-weight: bold;
+}
+
+.searchTwitter {
+    display: flex;
+    align-items: center;
+    background-color: #EFF5F5;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 30px;
+}
+
+.trendingContainer {
+    padding: 5px 60px 0px 30px;
+    margin-bottom: 15px;
+}
+
+#inputSearch input {
+    border: none;
+    margin-left: 15px;
+    background-color: #EFF5F5;
+    height: 30px;
+
+}
+
+.classic {
+    margin-top: 20px;
+}
+
+.trendingTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trendingTitle svg {
+    height: 20px;
+}
+
+.trendingTitle span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.trendingUpdates span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.trendingUpdates span:last-child {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bgColor {
+    background-color: #EFF5F5;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.heading {
+    color: black;
+    font-weight: bold;
+}
+
+.showMore {
+    color: rgb(29, 155, 240);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.recmdUser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recmdUser img {
+    border-radius: 50%;
+}
+
+.recmdUser button {
+    background-color: #14171a;
+    color: white;
+    padding: 10px 16px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.recmdUser button:hover {
+    background-color: #2a2e31;
+}
